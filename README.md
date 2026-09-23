@@ -188,6 +188,172 @@ The dataset is structured as a single employee-level table with 37 fields coveri
 
 ---
 
+# 📊 Key Performance Indicators
+
+| KPI | Result |
+|---|---:|
+| Total Employees | **1,480** |
+| Active Employees | **1,242** |
+| Employees with Attrition | **238** |
+| Attrition Rate | **16.08%** |
+| Average Tenure | **7.01 years** |
+| Average Monthly Salary | **6.50K** |
+| Average Salary Hike | **15.21%** |
+| Maximum Salary Hike | **25%** |
+| High Risk Count | **31** |
+
+---
+
+# 📈 Key Findings
+
+## 👥 Age Group Attrition
+
+| Age Group | Attrition Rate |
+|---|---:|
+| 18–25 | **35.77%** |
+| 26–35 | **18.99%** |
+| 55+ | **17.02%** |
+| 46–55 | **11.84%** |
+| 36–45 | **9.13%** |
+
+The 18–25 age group has the highest reported attrition rate among the listed age groups.
+
+---
+
+## 💍 Marital Status
+
+| Marital Status | Attrition Rate | Share of All Leavers |
+|---|---:|---:|
+| Single | **25.37%** | **52.74%** |
+| Married | **12.37%** | **25.72%** |
+| Divorced | **10.37%** | **21.55%** |
+
+---
+
+## ⚥ Gender
+
+| Gender | Attrition Rate | Share of Workforce |
+|---|---:|---:|
+| Male | **16.99%** | **53.57%** |
+| Female | **14.72%** | **46.43%** |
+
+---
+
+## 🏢 Department
+
+| Department | Attrition Rate |
+|---|---:|
+| Sales | **20.67%** |
+| Human Resources | **19.05%** |
+| Research & Development | **13.75%** |
+
+---
+
+## 🎓 Education Field
+
+| Education Field | Attrition Rate |
+|---|---:|
+| Human Resources | **25.93%** |
+| Technical Degree | **24.24%** |
+| Marketing | **22.36%** |
+| Life Sciences | **14.66%** |
+| Medical | **13.40%** |
+| Other | **13.25%** |
+
+---
+
+## ⏳ Tenure
+
+| Years at Company | Attrition Rate |
+|---|---:|
+| 0–2 | **29.82%** |
+| 31–40 | **25.00%*** |
+| 3–5 | **13.90%** |
+| 6–10 | **12.17%** |
+| 21–30 | **8.00%** |
+| 11–20 | **6.63%** |
+
+> **Note:** The 31–40-year tenure group may contain a small number of employees, so the reported rate should be interpreted cautiously.
+
+---
+
+## 📈 Promotion Gap
+
+| Years Since Last Promotion | Attrition Rate |
+|---|---:|
+| 6–10 | **18.00%** |
+| 0–2 | **16.91%** |
+| 11–15 | **12.12%** |
+| 3–5 | **10.13%** |
+
+---
+
+# 💡 Business Insights
+
+### 1. Younger Employees Show Higher Reported Attrition
+
+The 18–25 age group has a reported attrition rate of **35.77%**, the highest among the listed age groups.
+
+### 2. Early Tenure Is an Important Analytical Area
+
+Employees in the 0–2-year tenure group show a reported attrition rate of **29.82%**.
+
+### 3. Department-Level Differences Exist
+
+Sales reports a **20.67%** attrition rate, followed by Human Resources at **19.05%** and Research & Development at **13.75%**.
+
+### 4. Marital-Status Groups Show Different Attrition Rates
+
+The reported attrition rate for single employees is **25.37%**, compared with **12.37%** for married employees and **10.37%** for divorced employees.
+
+### 5. Promotion Gaps Warrant Additional Analysis
+
+Employees with **6–10 years since their last promotion** have a reported attrition rate of **18.00%**.
+
+> **Note:** These findings describe patterns observed in the dataset and should not by themselves be interpreted as causal relationships.
+
+---
+
+# 💡 Business Recommendations
+
+Based on the observed analytical patterns, the project identifies the following areas for further HR investigation.
+
+## 👥 Early-Tenure Retention
+
+Review:
+
+- Onboarding
+- Early-career support
+- Mentorship
+- First-year employee check-ins
+
+## 🏢 Department-Level Analysis
+
+Investigate departments with higher reported attrition rates by examining:
+
+- Job roles
+- Workload
+- Compensation
+- Employee experience
+
+## 📈 Career Development
+
+Further investigate:
+
+- Promotion gaps
+- Career progression
+- Role mobility
+- Development opportunities
+
+## 📊 Dashboard Transparency
+
+Improve:
+
+- Chart labels
+- Field descriptions
+- KPI definitions
+- Risk-score documentation
+
 # 🛠 Technology Stack
 
 ## SQL / PostgreSQL
